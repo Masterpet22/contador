@@ -28,3 +28,12 @@ html, body{
 .logo-contenedor img{
     height: 50px;
 }
+.contenedor{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
