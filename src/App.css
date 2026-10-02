@@ -25,12 +25,14 @@ html, body{
     margin: 20px;
 }
 
-.logo-contenedor img{
-    height: 50px;
+.logo-contenedor h1{
+    color: #fff;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    letter-spacing: -0.04em;
 }
 .contenedor{
     height: 550px;
-    min-width: 600px;
+    width: min(100%, 600px);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

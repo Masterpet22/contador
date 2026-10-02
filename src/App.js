@@ -1,7 +1,6 @@
 import './App.css';
 import Boton from './componentes/boton';
 import Contador from './componentes/contador';
-import logo from './img/freecodecamp-logo.png'
 import { useState } from 'react';
 
 function App() {
@@ -18,10 +17,7 @@ function App() {
   return (
     <div className="App">
       <div className='logo-contenedor'>
-        <img 
-          className='logo'
-          src={logo}
-          alt='logo'/>
+        <h1>Contador de clics</h1>
       </div>
       <div className='contenedor'>
         <Contador numClics={numClics} />
